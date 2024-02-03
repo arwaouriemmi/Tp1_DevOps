@@ -42,7 +42,7 @@ class AuthRepository {
                         onError("Wrong password please try again!")
                     }
                 } else {
-                    onError("User with this email doesn't exist!")
+                    onError("User with this email doesn't exist please try again!")
                 }
             }
 
