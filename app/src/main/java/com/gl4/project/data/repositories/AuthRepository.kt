@@ -39,7 +39,7 @@ class AuthRepository {
                     if (storedPassword == password) {
                         onSuccess()
                     } else {
-                        onError("Wrong password!")
+                        onError("Wrong password please try again!")
                     }
                 } else {
                     onError("User with this email doesn't exist!")
